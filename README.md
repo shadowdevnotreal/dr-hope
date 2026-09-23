@@ -242,4 +242,8 @@ This project is **proprietary** and **All Rights Reserved**.
 [![GitHub Stars](https://img.shields.io/github/stars/shadowdevnotreal/dr-hope?style=social)](https://github.com/shadowdevnotreal/dr-hope/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/shadowdevnotreal/dr-hope?style=social)](https://github.com/shadowdevnotreal/dr-hope/network)
 
+<br/>
+
+<img src="assets/diatasso-mark.svg" alt="DIATASSO LLC service mark" width="72"/>
+
 </div>
