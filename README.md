@@ -5,7 +5,7 @@
 <div align="center">
 
 ![Status](https://img.shields.io/badge/status-concept-orange?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red?style=for-the-badge)
 ![Category](https://img.shields.io/badge/category-mental%20health-ff6b6b?style=for-the-badge)
 ![Questions](https://img.shields.io/badge/assessment-92%20questions-9d50bb?style=for-the-badge)
 
@@ -212,9 +212,9 @@ Dr. HOPE is an informational and educational self-assessment tool. It does not p
 4. **Professional review**: input from qualified mental health professionals, whistleblower support specialists, and privacy and security experts.
 5. **Accessibility and deployment**: multilingual support, mobile-friendly interfaces, accessible interaction patterns, deployment options for support organizations.
 
-## License and Contributions
+## Contributions
 
-If released as open source, the repository should include a clearly defined license, contribution guidelines, and a security reporting policy, accounting for ownership of the assessment questions and any third-party materials. Contributions can include accessibility improvements, interface development, documentation, security enhancements, and testing. Changes to the psychological assessment content should undergo subject-matter review before joining the main question bank.
+This repository does not currently accept external contributions. Changes to the psychological assessment content would need subject-matter review before joining the main question bank in any case.
 
 ## Project Vision
 
@@ -222,6 +222,22 @@ Dr. HOPE approaches AI-assisted psychological self-assessment with an emphasis o
 
 Dr. HOPE: Helping Others Protect Everyone.
 
-## License
+## 📄 License & Model
 
-See [LICENSE](LICENSE).
+This project is **proprietary** and **All Rights Reserved**.
+
+- No portion of this repository (concept documentation, source code, assessment questions, or associated materials) may be used, copied, modified, merged, published, distributed, sublicensed, hosted, or sold without prior written permission from the copyright holder.
+- This repository is published for portfolio and demonstration purposes only. It is not open source, and no license (MIT, Apache, GPL, or otherwise) is granted by publication or by forking/cloning.
+- The **Dr. HOPE** name, branding, and associated marks are claimed as trademarks of the copyright holder, whether or not registered, and are not covered by any license grant even if one is later added to this repository.
+- See [`LICENSE`](LICENSE) for full terms.
+
+---
+
+<div align="center">
+
+### **⭐ Star this repository if Dr. HOPE interested you!**
+
+[![GitHub Stars](https://img.shields.io/github/stars/shadowdevnotreal/dr-hope?style=social)](https://github.com/shadowdevnotreal/dr-hope/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/shadowdevnotreal/dr-hope?style=social)](https://github.com/shadowdevnotreal/dr-hope/network)
+
+</div>
