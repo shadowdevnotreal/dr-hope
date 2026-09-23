@@ -1,107 +1,142 @@
-# Dr. HOPE — Whistleblower Assessment Counselor
+# Dr. HOPE
 
-**Helping Others Protect Everyone** · Psychological Assessment & Support
+### Whistleblower Assessment Counselor
 
-An AI-powered psychological self-assessment and support tool designed to help individuals considering or engaged in whistleblowing evaluate their emotional preparedness, ethical reasoning, support systems, risk awareness, and long-term wellbeing.
+<div align="center">
 
-## 1. Project Overview
+![Status](https://img.shields.io/badge/status-concept-orange?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
+![Category](https://img.shields.io/badge/category-mental%20health-ff6b6b?style=for-the-badge)
+![Questions](https://img.shields.io/badge/assessment-92%20questions-9d50bb?style=for-the-badge)
 
-Dr. HOPE (Helping Others Protect Everyone) is a specialized AI-powered assessment counselor designed to support individuals who are considering becoming whistleblowers, preparing to disclose information about wrongdoing, or navigating the psychological challenges associated with reporting misconduct.
+**Helping Others Protect Everyone**
 
-Whistleblowing can involve significant personal, professional, emotional, and social consequences. Individuals may experience uncertainty about their decisions, fear of retaliation, concerns about financial security, disruptions to professional relationships, and anxiety about long-term consequences.
+</div>
 
-Dr. HOPE provides a structured environment where individuals can explore these concerns through a comprehensive, 92-question psychological self-assessment. It uses a conversational assessment model that encourages users to examine their motivations, emotional resilience, ethical considerations, personal support networks, and ability to manage uncertainty.
+An AI-powered psychological self-assessment and support tool for individuals considering or engaged in whistleblowing, evaluating emotional preparedness, ethical reasoning, support systems, risk awareness, and long-term wellbeing.
 
-Unlike conventional assessment tools that generate numerical scores or categorize individuals according to predetermined readiness levels, Dr. HOPE emphasizes personal reflection and psychological preparedness **without** attempting to determine whether someone should become a whistleblower. The tool is intended for educational and supportive use — it is not a clinical diagnostic instrument, a substitute for licensed psychological care, or a means of certifying someone's suitability to report wrongdoing.
+## Overview
 
-## 2. Mission and Objectives
+Dr. HOPE (Helping Others Protect Everyone) is a specialized AI-powered assessment counselor for individuals who are considering becoming whistleblowers, preparing to disclose wrongdoing, or navigating the psychological challenges of reporting misconduct.
 
-**Mission:** To provide individuals considering or engaged in whistleblowing with accessible, structured psychological self-assessment and emotional support, helping them better understand their personal circumstances, prepare for potential challenges, and identify resources that may support their wellbeing.
+Whistleblowing can carry significant personal, professional, emotional, and social consequences: uncertainty about the decision, fear of retaliation, financial concerns, strained professional relationships, and anxiety about long-term outcomes.
 
-**Primary objectives:**
+Dr. HOPE provides a structured space to explore these concerns through a 92-question psychological self-assessment, using a conversational model that encourages reflection on motivations, emotional resilience, ethical considerations, support networks, and tolerance for uncertainty.
 
-- **Psychological self-awareness** — explore emotional responses, coping mechanisms, personal values, and reactions to uncertainty or interpersonal conflict.
-- **Preparation for potential challenges** — consider possible professional, financial, social, and psychological consequences of reporting misconduct.
-- **Support system identification** — evaluate access to trusted individuals, professional resources, and other forms of assistance.
-- **Independent decision-making** — examine motivations and circumstances without directing users toward or away from whistleblowing.
-- **Emotional wellbeing** — supportive interactions, encouraged breaks, and direction toward professional assistance when necessary.
+Unlike conventional tools that produce numerical scores or readiness categories, Dr. HOPE emphasizes personal reflection and psychological preparedness without attempting to decide whether someone should become a whistleblower. It is an educational and supportive tool, not a clinical diagnostic instrument, a substitute for licensed psychological care, or a certification of suitability to report wrongdoing.
 
-## 3. Who Is This Tool For?
+## Mission and Objectives
+
+**Mission**: give individuals considering or engaged in whistleblowing accessible, structured psychological self-assessment and emotional support, helping them understand their circumstances, prepare for potential challenges, and identify resources for their wellbeing.
+
+```mermaid
+mindmap
+  root((Dr. HOPE))
+    Psychological self-awareness
+      Emotional responses
+      Coping mechanisms
+    Preparation for challenges
+      Professional impact
+      Financial and social impact
+    Support system identification
+      Trusted individuals
+      Professional resources
+    Independent decision-making
+      No direction toward or away
+    Emotional wellbeing
+      Supportive tone
+      Breaks and referrals
+```
+
+## Who This Is For
 
 | User group | Intended use |
 |---|---|
 | Prospective whistleblowers | Exploring the personal and psychological implications of reporting wrongdoing |
-| Active whistleblowers | Reflecting on emotional wellbeing and support needs during an ongoing disclosure process |
-| Former whistleblowers | Exploring experiences associated with recovery, adaptation, and rebuilding stability |
-| Whistleblower support organizations | Offering a structured educational self-reflection resource |
-| Counselors and support professionals | Using the framework as a supplementary discussion aid, subject to professional oversight |
-| Researchers | Studying conversational self-assessment tool design, with appropriate consent and safeguards |
+| Active whistleblowers | Reflecting on wellbeing and support needs during an ongoing disclosure |
+| Former whistleblowers | Exploring recovery, adaptation, and rebuilding stability |
+| Support organizations | Offering a structured educational self-reflection resource |
+| Counselors and support professionals | Using the framework as a supplementary discussion aid, with professional oversight |
+| Researchers | Studying conversational self-assessment design, with consent and safeguards |
 
 The system does not determine whether allegations are true, investigate misconduct, provide legal representation, or replace professional psychological evaluation.
 
-## 4. Core Assessment Framework
+## Core Assessment Framework
 
-Dr. HOPE is organized into **eight modules containing a total of 92 questions**, each examining a distinct dimension of psychological preparedness and personal circumstances.
+Dr. HOPE is organized into **eight modules totaling 92 questions**, each examining a distinct dimension of psychological preparedness.
+
+```mermaid
+flowchart LR
+    M1[1. Ethical Reasoning\n15 questions] --> M2[2. Psychological\nResilience\n12 questions]
+    M2 --> M3[3. Support Systems\n10 questions]
+    M3 --> M4[4. Motivation and\nValues\n8 questions]
+    M4 --> M5[5. Risk Perception\n14 questions]
+    M5 --> M6[6. Identity and\nSelf-Concept\n11 questions]
+    M6 --> M7[7. Communication\nStyle\n9 questions]
+    M7 --> M8[8. Future Planning\n13 questions]
+```
 
 | Module | Questions | Focus |
 |---|---|---|
-| 1. Ethical Reasoning and Moral Courage | 15 | Ethical dilemmas, moral responsibilities, competing obligations, loyalty, integrity |
-| 2. Psychological Resilience Assessment | 12 | Responses to stress, uncertainty, conflict; coping strategies and recovery practices |
-| 3. Support Systems Evaluation | 10 | Availability/reliability of personal and professional support networks |
-| 4. Motivation and Values Assessment | 8 | Motivations, personal values, and expectations tied to whistleblowing |
-| 5. Risk Perception and Management | 14 | Understanding of consequences and resources to manage uncertainty |
+| 1. Ethical Reasoning and Moral Courage | 15 | Ethical dilemmas, competing obligations, loyalty, integrity |
+| 2. Psychological Resilience Assessment | 12 | Responses to stress and conflict; coping and recovery |
+| 3. Support Systems Evaluation | 10 | Availability and reliability of personal and professional networks |
+| 4. Motivation and Values Assessment | 8 | Motivations, values, and expectations tied to whistleblowing |
+| 5. Risk Perception and Management | 14 | Understanding consequences and resources for managing uncertainty |
 | 6. Identity and Self-Concept | 11 | Self-understanding in relation to work, relationships, and values |
-| 7. Communication and Disclosure Style | 9 | Communicating sensitive information and managing difficult conversations |
+| 7. Communication and Disclosure Style | 9 | Communicating sensitive information, managing difficult conversations |
 | 8. Future Planning and Adaptation | 13 | Long-term wellbeing, priorities, and capacity to adapt |
 
-Example question (Module 1): *"You discover that a respected colleague has falsified information that could affect public safety. How would your relationship with this person influence the way you approach the situation?"* The objective is not to identify a correct response but to understand the user's reasoning process. No module diagnoses psychological conditions, classifies motivations as qualifying/disqualifying, or predicts legal outcomes.
+Example question (Module 1): *"You discover that a respected colleague has falsified information that could affect public safety. How would your relationship with this person influence the way you approach the situation?"* The goal is understanding the user's reasoning process, not identifying a correct answer. No module diagnoses conditions, classifies motivations as qualifying or disqualifying, or predicts legal outcomes.
 
-## 5. How Dr. HOPE Works
+## How Dr. HOPE Works
 
-Dr. HOPE uses a sequential conversational assessment model — one question at a time, rather than a full questionnaire at once — to keep the process manageable and provide room for reflection, clarification, and support.
+Dr. HOPE presents one question at a time, rather than a full questionnaire at once, keeping the process manageable and leaving room for reflection, clarification, and support.
 
+```mermaid
+flowchart TD
+    A[Begin assessment\nintro, consent, overview] --> B[Present one question\nmodule, number, progress]
+    B --> C[Response and\nwellbeing check]
+    C --> D{Continue or\ntake a break?}
+    D -->|Continue| B
+    D -->|Break| E[Pause, resume\nwhen ready]
+    E --> B
+    D -->|All 8 modules done| F[Completion summary\nand optional sharing]
 ```
-User begins assessment (introduction, consent, overview)
-        │
-One question presented (module, question number, progress shown)
-        │
-Response and wellbeing check (acknowledge response, watch for distress)
-        │
-Continue or take a break (repeat until all eight modules complete)
-        │
-Assessment completion (summary and optional user-controlled sharing)
-```
 
-**Initial setup** — Dr. HOPE introduces its purpose and structure, asks for a preferred name, gives an overview of the eight modules, states there are 92 questions and no final psychological score, and requires consent before beginning. Account-type collection should be optional for a standalone implementation.
+**Initial setup**: Dr. HOPE introduces its purpose and structure, asks for a preferred name, gives an overview of the eight modules, states there are 92 questions and no final psychological score, and requires consent before beginning. Account-type collection should be optional for a standalone build.
 
-**Progress tracking** — `Progress = (Completed Questions / 92) × 100`. For example, 46 completed questions = 50% complete. The interface should distinguish answered questions from the one currently being presented.
+**Progress tracking**: `Progress = (Completed Questions / 92) x 100`. At 46 completed questions, the assessment is 50 percent complete. The interface distinguishes answered questions from the one currently in progress.
 
-**Response processing** — after each answer, the system acknowledges it and considers whether the user needs clarification, support, or a break, without automatically interpreting an answer as evidence of a psychological disorder or moral deficiency.
+**Response processing**: after each answer, the system acknowledges it and watches for a need for clarification, support, or a break, without treating an answer as evidence of a psychological disorder or moral deficiency.
 
-## 6. Emotional Support and Safety Features
+## Emotional Support and Safety Features
 
-**Break management** — breaks may be suggested when requested, when significant distress is expressed, after completing a module, or after roughly 45 minutes of engagement.
+**Break management**: breaks can be suggested on request, after significant distress, after completing a module, or after roughly 45 minutes of engagement.
 
-**Crisis response** — if a user expresses immediate risk of self-harm or another serious safety concern, the normal assessment flow is interrupted to prioritize safety and provide crisis resources. In the United States: call or text **988** for suicide and crisis support, or text **HOME to 741741** for the Crisis Text Line. The assessment resumes only when appropriate and at the user's discretion.
+**Crisis response**: if a user expresses immediate risk of self-harm or another serious safety concern, the normal assessment flow stops to prioritize safety and provide crisis resources. In the United States: call or text **988** for suicide and crisis support, or text **HOME to 741741** for the Crisis Text Line. The assessment resumes only when appropriate and at the user's discretion.
 
-## 7. Privacy, Confidentiality, and Data Protection
+## Privacy, Confidentiality, and Data Protection
 
 Whistleblower-related conversations may contain sensitive personal, professional, or organizational information, so privacy protection is a core design requirement, not an optional feature.
 
-Recommended principles: collect only necessary information; avoid unnecessary identifying details about third parties; provide clear data-retention policies; give users control over whether responses are saved or shared. If responses are stored, use encryption, access controls, secure authentication, retention limits, and deletion mechanisms. Users should not be encouraged to upload confidential organizational documents, trade secrets, or identifying evidence merely to complete a self-assessment.
+Recommended principles: collect only necessary information, avoid unnecessary identifying details about third parties, provide clear data-retention policies, and give users control over whether responses are saved or shared. Stored responses should use encryption, access controls, secure authentication, retention limits, and deletion mechanisms. Users should never be encouraged to upload confidential organizational documents, trade secrets, or identifying evidence just to complete a self-assessment.
 
-**Important:** a conversational AI interface should never be described as providing legally privileged communication, guaranteed anonymity, or absolute confidentiality unless those protections have actually been established.
+**Important**: a conversational AI interface should never be described as providing legally privileged communication, guaranteed anonymity, or absolute confidentiality unless those protections are actually in place.
 
-## 8. Technical Architecture
+## Technical Architecture
 
-A proposed software architecture for a future standalone implementation (not a claim that these components already exist):
+A proposed architecture for a future standalone implementation, not a claim that these components already exist:
 
-```
-Frontend Interface     web or mobile conversational assessment experience
-Application Backend    authentication, session management, consent, progress tracking
-Assessment Engine      question sequencing, module transitions, response management
-AI Support Layer       supportive conversational responses, clarification, safety handling
-Secure Data Layer      optional storage of assessment state, responses, and preferences
+```mermaid
+flowchart TD
+    F[Frontend Interface\nweb or mobile conversational UI]
+    B[Application Backend\nauth, session, consent, progress]
+    E[Assessment Engine\nquestion sequencing, transitions]
+    A[AI Support Layer\nsupportive responses, safety handling]
+    D[Secure Data Layer\noptional storage of state and responses]
+
+    F --> B --> E --> A --> D
 ```
 
 **Recommended repository structure:**
@@ -146,9 +181,9 @@ dr-hope/
 └── package.json
 ```
 
-The original assessment question banks should be maintained separately from the conversational interface, so the interface or AI model can be updated without unintentionally changing the underlying assessment questions.
+The assessment question banks are kept separate from the conversational interface, so the interface or AI model can be updated without unintentionally changing the underlying questions.
 
-## 9. AI Behavioral Guidelines
+## AI Behavioral Guidelines
 
 - Present only one assessment question at a time and wait for the user's response.
 - Maintain accurate module and overall progress tracking.
@@ -157,35 +192,35 @@ The original assessment question banks should be maintained separately from the 
 - Never generate psychological scores, clinical diagnoses, or readiness certifications.
 - Prioritize wellbeing and appropriate support when signs of serious distress arise.
 
-These requirements should be tested at the application level rather than relying exclusively on model instructions — e.g. the backend can enforce the one-question-at-a-time rule and calculate progress independently of the AI-generated response.
+These requirements should be enforced at the application level rather than relying only on model instructions: for example, the backend can enforce the one-question-at-a-time rule and calculate progress independently of the AI-generated response.
 
-## 10. Assessment Completion and Sharing
+## Assessment Completion and Sharing
 
-After all 92 questions, Dr. HOPE provides a completion acknowledgment and a factual summary (questions completed, modules covered, general areas explored) — never numerical psychological scores, a clinical diagnosis, or a recommendation to proceed with or abandon whistleblowing.
+After all 92 questions, Dr. HOPE gives a completion acknowledgment and a factual summary (questions completed, modules covered, general areas explored), never a numerical score, a clinical diagnosis, or a recommendation to proceed with or abandon whistleblowing.
 
-Sharing is always voluntary, with a clear explanation of what becomes accessible to the recipient. For a ChatGPT-based implementation, developers should verify the platform's current sharing behavior before documenting it as a confidentiality-preserving process. A standalone application could instead implement a dedicated export feature allowing users to review and redact sensitive information before sharing.
+Sharing is always voluntary, with a clear explanation of what becomes accessible to the recipient. For a ChatGPT-based build, developers should verify the platform's current sharing behavior before documenting it as confidentiality-preserving. A standalone application could instead offer a dedicated export feature that lets users review and redact sensitive information before sharing.
 
-## 11. Ethical and Professional Limitations
+## Ethical and Professional Limitations
 
-Dr. HOPE is an informational and educational self-assessment tool. It does not provide professional psychological diagnosis, psychological treatment, legal advice, or formal determinations of fitness or readiness to engage in whistleblowing. The framework should not be presented as a clinically validated psychometric instrument unless appropriate validation research has been completed. Responses should not be used to make employment decisions, evaluate witness credibility, or determine whether allegations should be investigated. Any future research or clinical application requires additional professional review, appropriate safeguards, and consideration of relevant ethical/regulatory requirements.
+Dr. HOPE is an informational and educational self-assessment tool. It does not provide professional psychological diagnosis, treatment, legal advice, or formal determinations of fitness or readiness to engage in whistleblowing. The framework should not be presented as a clinically validated psychometric instrument unless it has undergone appropriate validation research. Responses should never be used to make employment decisions, evaluate witness credibility, or determine whether allegations should be investigated. Any future research or clinical application needs additional professional review, safeguards, and consideration of relevant ethical and regulatory requirements.
 
-## 12. Future Development Roadmap
+## Future Development Roadmap
 
-1. **Core assessment experience** — eight-module question bank, one-question-at-a-time interface, consent flow, accurate progress tracking.
-2. **User experience improvements** — accessible interface options, session resumption, break reminders, user-controlled navigation.
-3. **Privacy and security** — secure response storage, user-controlled deletion, privacy-preserving exports, documented data handling policies.
-4. **Professional review** — input from qualified mental health professionals, whistleblower support specialists, and privacy/security experts.
-5. **Accessibility and deployment** — multilingual support, mobile-friendly interfaces, accessible interaction patterns, deployment options for support organizations.
+1. **Core assessment experience**: eight-module question bank, one-question-at-a-time interface, consent flow, accurate progress tracking.
+2. **User experience improvements**: accessible interface options, session resumption, break reminders, user-controlled navigation.
+3. **Privacy and security**: secure response storage, user-controlled deletion, privacy-preserving exports, documented data handling policies.
+4. **Professional review**: input from qualified mental health professionals, whistleblower support specialists, and privacy and security experts.
+5. **Accessibility and deployment**: multilingual support, mobile-friendly interfaces, accessible interaction patterns, deployment options for support organizations.
 
-## 13. License and Contributions
+## License and Contributions
 
-If released as open source, the repository should include a clearly defined software license, contribution guidelines, and a security reporting policy, accounting for ownership of the assessment questions and any third-party materials. Contributions could include accessibility improvements, interface development, documentation, security enhancements, and testing. Changes to the psychological assessment content should undergo appropriate subject-matter review before being incorporated into the main question bank.
+If released as open source, the repository should include a clearly defined license, contribution guidelines, and a security reporting policy, accounting for ownership of the assessment questions and any third-party materials. Contributions can include accessibility improvements, interface development, documentation, security enhancements, and testing. Changes to the psychological assessment content should undergo subject-matter review before joining the main question bank.
 
 ## Project Vision
 
-Dr. HOPE represents an approach to AI-assisted psychological self-assessment that emphasizes personal autonomy, emotional support, structured reflection, and responsible handling of sensitive information. Its long-term purpose is not to determine whether an individual should disclose wrongdoing, but to help them better understand their circumstances, identify support needs, and approach their own decisions with greater self-awareness.
+Dr. HOPE approaches AI-assisted psychological self-assessment with an emphasis on personal autonomy, emotional support, structured reflection, and responsible handling of sensitive information. Its long-term purpose is not to decide whether someone should disclose wrongdoing, but to help them understand their circumstances, identify support needs, and approach their own decisions with greater self-awareness.
 
-Dr. HOPE — Helping Others Protect Everyone.
+Dr. HOPE: Helping Others Protect Everyone.
 
 ## License
 
